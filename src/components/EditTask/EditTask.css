@@ -1,0 +1,38 @@
+.Form-edit {
+    display: flex;
+    justify-content: center;
+}
+
+.button-save {
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 17px;
+    background-color: #d57713cb;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.input-edit {
+    border: none;
+    margin-top: 10px;
+    width: 391.57px;
+    height: 67.73px;
+    border-radius: 15.5px;
+    text-indent: 19px;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.edit {
+    margin-top: 11px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 600px;
+    margin-left: -85px;
+}

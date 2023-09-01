@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F4E0B9;
+}
+
+.Todolist-contain {
+    align-items: center;
+    
+}
+
+h1 {
+    margin-top: 135px;
+    font-size: 73px;
+    text-align: center;
+}
+
+
+
+.TaskForm {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Task-Content {
+    border-radius: 12px;
+    border: 3px solid #334155;
+    box-shadow: 0px 4px 10px 5px rgb(0, 0, 0 , 25%);
+    width: 746px;
+    min-height: 389px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.form-task {
+    display: flex;
+    justify-content: center;
+    margin-top: 93px;
+}
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.task-length {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
