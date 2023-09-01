@@ -18,7 +18,7 @@ function CreateTask({ onCreate }) {
   };
 
   return (
-    <form onSubmit={handleCreate}>
+    <form onSubmit={handleCreate} className="form-create">
       <input
         className="input-task"
         type="text"
