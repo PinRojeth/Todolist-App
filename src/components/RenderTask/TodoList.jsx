@@ -7,7 +7,7 @@ function Todolist({ tasks, onEdit, onDelete }) {
       <TaskShow onEdit={onEdit} onDelete={onDelete} key={task.id} task={task} />
     );
   });
-  return <div>{renderedTasks}</div>;
+  return <div className="render-task">{renderedTasks}</div>;
 }
 
 export default Todolist;

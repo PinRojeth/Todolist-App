@@ -38,12 +38,14 @@ function TaskShow({ task, onEdit, onDelete }) {
   }
 
   return (
-    <article className="task-box">
+    <section className="task-box">
       <div className="content-task">
+        <div className="title-task">
         <input type="checkbox" className="checkbox" checked={status} onChange={handleStatus} />
         <span className="content-show">
           {status ? <s className="">{content}</s> : <p>{content}</p>}
         </span>
+        </div>
       </div>
       {iconDisplay && (<div className="btn">
         <button className="btn-edit">
@@ -62,7 +64,7 @@ function TaskShow({ task, onEdit, onDelete }) {
         </button>
       </div>
       )}
-    </article>
+    </section>
   );
 }
 

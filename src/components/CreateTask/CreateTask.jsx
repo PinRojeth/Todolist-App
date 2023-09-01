@@ -18,6 +18,7 @@ function CreateTask({ onCreate }) {
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleCreate} className="form-create">
       <input
         className="input-task"
@@ -31,6 +32,7 @@ function CreateTask({ onCreate }) {
         Create
       </button>
     </form>
+    </div>
   );
 }
 

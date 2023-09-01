@@ -1,15 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
-@import url(../src/components/CreateTask/CreateTask.css);
-@import url(../src/components/EditTask/EditTask.css);
-@import url(../src/components/TaskDisplay/TaskDisplay.css);
 
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #F4E0B9;
-    display: flex;
-    justify-content: center;
 }
 
 .Todolist-contain {
@@ -46,12 +41,14 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 93px;
+    
 }
 
 .task-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+  
 }
 
 .task-length {
@@ -61,7 +58,8 @@ h1 {
   font-size: 30px;
 }
 
-/* Mobile */
+
+
 @media screen and (max-width: 600px) {
 
     .Task-Content {
@@ -86,12 +84,24 @@ h1 {
 
     }
     .task-box {
-        margin-left: 50px;
-        width: 350px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        width: 340px;
         transition: all 0.5s;
+        height: auto;
+    }
+    .content-task {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 -10px;
     }
 
     .task-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 330px;
         transition: all 0.5s;
     }
@@ -106,68 +116,20 @@ h1 {
     }
 
     .Form-edit {
+        margin-top: 1px;
+        margin-right: -17px;
         width: 330px;
         transition: all 0.5s;
+        z-index: 1100;
 
     }
     .task-length {
         font-size: 22px;
         transition: all 0.5s;
     }
+    .title-task {
+        margin-right: 10px;
+    }
+
     
   }
-
-  /* @media only screen and (min-width: 768px) {
-    .Task-Content {
-        width: 600px;
-        transition: all 0.5s;
-    }
-
-
-    .form-create {
-        display: flex;
-        justify-content: center;
-        width: 450px;
-        transition: all 0.5s;
-    }
-    
-    .input-task {
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        text-indent: 10px;
-        transition: all 0.5s;
-
-    }
-    .task-box {
-        margin-left: 150px;
-        width: 450px;
-        display: flex;
-        transition: all 0.5s;
-    }
-
-    .task-list {
-        width: 450px;
-        transition: all 0.5s;
-    }
-
-    .edit {
-        display: flex;
-        justify-content: center;
-        width: 520px;
-        transition: all 0.5s;
-
-    }
-
-    .input-edit {
-        width: 300px;
-    }
-
-    .Form-edit {
-        display: flex;
-        justify-content: center;
-        width: 530px;
-        transition: all 0.5s;
-
-    }
-  } */
